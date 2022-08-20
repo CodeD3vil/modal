@@ -23,3 +23,8 @@ window.onclick = (e) => {
         modal.style.display = "none";
     }
 };
+
+// When the user presses the Escape key modal window will close
+window.onkeyup = (e) => {
+    if (e.key === "Escape") modal.style.display = "none";
+};
